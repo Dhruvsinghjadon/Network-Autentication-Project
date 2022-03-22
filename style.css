@@ -12,13 +12,16 @@
 	position: absolute;
 }
 .form-box {
-	width: 330px;
-	height: 430px;
+	width: 380px;
+	height: 450px;
 	position: relative;
 	margin: 10% auto;
 	background: #FFF;
 	padding: 5px;
 	overflow: hidden;
+	border: solid rgb(38, 136, 228);
+    border-style: solid;
+	
 }
 .button-box {
 	width: 220px;
@@ -41,7 +44,7 @@
 	position: absolute;
 	width: 110px;
 	height: 100%;
-	background: linear-gradient(to right, #1c8af1, #fff);
+	background: #79baf8;
 	border-radius: 30px;
 	transition: .5s;
 }
@@ -55,6 +58,7 @@
 	color: #1c8af1;
 	margin: 0 12px;
 	cursor: pointer;
+	
 }
 .input-group {
 	top: 180px;
@@ -85,6 +89,10 @@
 	background: #FFF;
 	border-radius: 30px;
 }
+
+
+
+
 span {
 	color: #777;
 	font-size: 12px;
